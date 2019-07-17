@@ -8,7 +8,7 @@ export default class App extends React.Component {
       return (
         <View style={myStyles.container}>
           <Text style={myStyles.font}>Shalom!!</Text>
-          <Simples myText="Hello!"/>
+          <Simples myText="Hello!!"/>
         </View>
       )
     }
