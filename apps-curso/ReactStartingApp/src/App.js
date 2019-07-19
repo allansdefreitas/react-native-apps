@@ -1,6 +1,9 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
+
 import Simples from './components/Simples'
+import ParImpar from './components/ParImpar'
+import If from './If'
 
 export default class App extends React.Component {
 
@@ -9,6 +12,7 @@ export default class App extends React.Component {
         <View style={myStyles.container}>
           <Text style={myStyles.font}>Shalom!!</Text>
           <Simples myText="Hello!!"/>
+          <ParImpar number={21}/>
         </View>
       )
     }
