@@ -1,0 +1,29 @@
+Steps to Install React-native on WINDOWS ###############################
+
+1. Download Java (JDK)
+2. Set environment variable: 
+	name: JAVA_HOME
+	value*: C:\Program Files\Java\jdk1.8.0_60
+* may change according installation folder
+
+3. Download node LTS 
+(windows set up environment variables automatically.
+Sure you checked the installation option: add to PATH)
+
+4. Download Android Studio
+5. Set environment variables:
+	name: ANDROID_HOME
+	value*: C:\androidsdk
+
+6. Edit Path environment variable, adding values:
+
+	%JAVA_HOME%\bin
+	%ANDROID_HOME%\tools
+	%ANDROID_HOME%\tools\bin
+	%ANDROID_HOME%\platform-tools
+
+* may change according installation folder
+
+7. Open cmd and run:
+	sdkmanager --licenses
+8. accept all licences
